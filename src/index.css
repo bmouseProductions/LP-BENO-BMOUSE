@@ -45,3 +45,10 @@ span {
 .moving-image {
   animation: bounce 3s infinite;
 }
+
+.bg-desk {
+  background-image: url(./assets/Fundo-Desk-.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
