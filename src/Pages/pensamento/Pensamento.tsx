@@ -1,5 +1,3 @@
-import React from "react";
-
 const Pensamento = () => {
   return (
     <div className="py-16 mx-auto text-center">

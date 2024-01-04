@@ -1,4 +1,3 @@
-import React from "react";
 import BannerButton from "../../Components/BannerButton";
 
 const Testimonial = () => {

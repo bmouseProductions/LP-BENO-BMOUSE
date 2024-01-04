@@ -1,5 +1,3 @@
-import React from "react";
-
 const Jornada = () => {
   return (
     <div className="py-10">
