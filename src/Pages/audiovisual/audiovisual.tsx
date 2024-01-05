@@ -3,7 +3,7 @@ import audio from "../../assets/audiovisu.png";
 
 const Audiovisual = () => {
   return (
-    <div className="">
+    <div className="bg-banner lg:flex   lg:bg-cover ">
       <div className="mx-auto flex flex-col items-center justify-center ">
         <div className="">
           <img src={audio} />
@@ -52,7 +52,7 @@ const Audiovisual = () => {
           ))}
         </div>
 
-        <img src="/down.png" className="mt-10 moving-image" />
+        <img src="/down.png" className="mt-10 pb-10 moving-image" />
       </div>
     </div>
   );

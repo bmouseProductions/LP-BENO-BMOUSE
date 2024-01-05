@@ -13,7 +13,7 @@ const Carousel = () => {
     // Se não for um dispositivo móvel, renderize as imagens lado a lado
     return (
       <>
-        <div className="py-10 ">
+        <div className="py-10 bg-banner lg:flex   lg:bg-cover lg:h-screen">
           {/*  <div className=" border-2 border-solid rounded-full border-[#33F1DD] text-center p-2 items-center align-bottom justify-center max-w-xs  mx-auto bg-transparent w-full relative">
             <h1 className="text-base font-light ">
               <span>Empresas</span> que já estão usando VR:
