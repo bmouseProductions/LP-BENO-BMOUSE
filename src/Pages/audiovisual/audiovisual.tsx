@@ -1,13 +1,14 @@
-import BannerButton from "../../Components/BannerButton";
+/* import BannerButton from "../../Components/BannerButton"; */
+import audio from "../../assets/audiovisu.png";
 
 const Audiovisual = () => {
   return (
     <div className="">
       <div className="mx-auto flex flex-col items-center justify-center ">
         <div className="">
-          <img src="/Vector.png" className="lg:w-[200px]" />
+          <img src={audio} />
         </div>
-        <div className="text-center">
+        {/*         <div className="text-center">
           <h1 className="text-4xl lg:text-6xl">
             Nosso Arsenal <br />{" "}
           </h1>
@@ -17,8 +18,8 @@ const Audiovisual = () => {
           <div className="mx-auto text-center  mt-5">
             <BannerButton text="Conheça o que temos disponível" />
           </div>
-        </div>
-        <div className="relative mt-5 lg:max-w-4xl">
+        </div> */}
+        <div className="relative mt-10 lg:max-w-4xl pb-20">
           <p className="container px-6 lg:text-xl text-center font-extralight">
             Grandes ideias para divulgar a sua marca se tornam ainda maiores com
             a liberdade técnica que temos para executá-las.{" "}
@@ -28,18 +29,24 @@ const Audiovisual = () => {
           </p>
         </div>
 
-        <div className="container justify-center">
+        <div className="container justify-center flex">
           {[
+            {
+              image: "/camera-ursa.png",
+            },
+            {
+              image: "/camera2.png",
+            },
             {
               image: "/camera-ursa.png",
             },
           ].map((item, index) => (
             <div
               key={index}
-              className="flex  items-center border-4 lg:w-1/4 lg:mx-auto border-[#33F1DD] rounded-3xl  p-4 mt-5"
+              className=" items-center border-4 lg:w-1/4 lg:mx-auto border-[#33F1DD] rounded-3xl  p-4 mt-5"
             >
-              <div className=" mx-auto">
-                <img src={item.image} className="z-20" />
+              <div className="  mx-auto">
+                <img src={item.image} className="z-20 " />
               </div>
             </div>
           ))}

@@ -2,7 +2,7 @@ import ContatoButton from "../../Components/Button/Button";
 const Banner = () => {
   return (
     <div className="bg-desk flex h-screen ">
-      <div className="mx-auto flex flex-col items-center justify-center">
+      <div className="mx-auto flex flex-col items-center justify-center mt-32">
         <div className="lg:flex lg:items-center">
           <div className="relative w-[109px] h-[58px] lg:w-[240px] lg:mr-3 mx-auto  bg-[100%_100%]">
             <img className="lg:w-52 lg:-top-6" alt="Vector" src="/Vector.png" />

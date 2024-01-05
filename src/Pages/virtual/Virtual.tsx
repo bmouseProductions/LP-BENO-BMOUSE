@@ -1,13 +1,13 @@
 const Virtual = () => {
   return (
     <div className=" py-16 bg-transparent w-full relative">
-      <div className="text-center">
+      {/*       <div className="text-center">
         <h1 className="text-[#33F1DD] text-4xl lg:text-8xl">
           Realidade
           <br /> Virtual
         </h1>
-      </div>
-      <div className="text-center mt-10 mx-auto">
+      </div> */}
+      <div className="text-center  mx-auto">
         <h2 className="text-[rgba(255, 255, 255, 0.70)] text-xl">
           Assista aqui alguns trabalhos
         </h2>

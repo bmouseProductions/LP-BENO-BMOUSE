@@ -1,13 +1,15 @@
-import BannerButton from "../../Components/BannerButton";
+/* import BannerButton from "../../Components/BannerButton"; */
+import Testimonials from "../../Components/Testimonials";
+import cliente from "../../assets/cliente.png";
 
 const Testimonial = () => {
   return (
-    <div className="text-center mt-10">
-      <div className="mx-auto flex flex-col items-center justify-center">
-        <div className="mt-5">
-          <img src="/Vector.png" alt="Vector" />
+    <div className="">
+      <div className="">
+        <div className="pr-10">
+          <img src={cliente} alt="Vector" className="mx-auto" />
         </div>
-        <div className="text-center">
+        {/*         <div className="text-center">
           <div className="items-center ml-8">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
               O que falam <br />
@@ -22,8 +24,8 @@ const Testimonial = () => {
           <div className="">
             <h1 className="text-4xl lg:text-8xl">Clientes </h1>
           </div>
-        </div>
-        <div className="mt-3 px-3">
+        </div> */}
+        {/*         <div className="mt-3 ">
           <p className="container px-6 text-center font-extralight text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
             Grandes ideias para divulgar a sua marca se tornam ainda maiores com
             a liberdade técnica que temos para executá-las.{" "}
@@ -31,9 +33,9 @@ const Testimonial = () => {
               Estamos prontos para te levar a uma nova realidade.
             </span>
           </p>
-        </div>
+        </div> */}
 
-        <div className="mt-5 px-3 lg:w-1/2 mx-auto">
+        {/*        <div className="mt-5  lg:w-1/2 mx-auto">
           <div className="mx-auto container p-8 bg-[#242426] rounded-md shadow-lg">
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -60,11 +62,13 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        <Testimonials />
 
         <img
           src="/down.png"
-          className="mt-10 moving-image"
+          className="mt-10 moving-image mx-auto"
           alt="Seta para baixo"
         />
       </div>

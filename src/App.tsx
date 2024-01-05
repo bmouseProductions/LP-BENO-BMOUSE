@@ -11,6 +11,11 @@ import Virtual from "./Pages/virtual/Virtual";
 function App() {
   return (
     <>
+      <div className="star-field">
+        <div className="layer"></div>
+        <div className="layer"></div>
+        <div className="layer"></div>
+      </div>
       <Banner />
       <Carousel />
       <Virtual />

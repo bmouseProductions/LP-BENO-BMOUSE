@@ -1,15 +1,20 @@
+import jornada from "../../assets/jornada.png";
+
 const Jornada = () => {
   return (
     <div className="py-10">
-      <div className="border-2 mx-auto w-5/6 sm:w-1/2 md:w-1/3 lg:w-1/6 rounded-full p-4">
-        <p className="text-center">O futuro lhe aguarda</p>
+      <div className="border-2 border-[#959595] mx-auto w-5/6 sm:w-1/2 md:w-1/3 lg:w-1/6 rounded-full p-4">
+        <p className="text-center uppercase text-2xl text-[#959595]">
+          O futuro lhe aguarda
+        </p>
       </div>
 
       <div className="mx-auto py-4">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:max-w-4xl lg:mx-auto lg:text-6xl xl:text-7xl text-center">
+        {/* <h1 className="text-3xl sm:text-4xl md:text-5xl lg:max-w-4xl lg:mx-auto lg:text-6xl xl:text-7xl text-center">
           Comece sua jornada virtual{" "}
           <span className="text-[#33F1DD]">HOJE</span>
-        </h1>
+        </h1> */}
+        <img src={jornada} className="mx-auto p-5" />
       </div>
 
       <div className="mx-auto lg:mt-5 text-center">
