@@ -8,7 +8,7 @@ const Pensamento = () => {
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light lg:-mb-14 lg:pr-80 xl:text-7xl">
           Pensamos
         </h1>
-        <img src={alem} className="mx-auto w-full" />
+        <img src={alem} className="mx-auto  " />
       </div>
 
       <p className="text-sm sm:text-base md:text-lg text-gray-400 lg:max-w-4xl mx-auto lg:text-xl xl:text-2xl lg:-mt-36 lg:-mb-96 lg:relative lg:-bottom-36">

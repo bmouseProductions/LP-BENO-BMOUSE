@@ -1,7 +1,7 @@
 import ContatoButton from "../../Components/Button/Button";
 const Banner = () => {
   return (
-    <div className=" flex h-screen ">
+    <div className=" bg-banner lg:flex  bg-cover h-screen">
       <div className="mx-auto flex flex-col items-center justify-center lg:mt-32 mt-36">
         <div className="lg:flex lg:items-center">
           <div className="relative w-[109px] h-[58px] lg:w-[240px] lg:mr-3 mx-auto  bg-[100%_100%]">
@@ -35,8 +35,6 @@ const Banner = () => {
         <div className="lg:w-[50%] mx-auto">
           <ContatoButton />
         </div>
-
-        <img src="/down.png" className=" pt-10 pb-10 moving-image" />
       </div>
     </div>
   );

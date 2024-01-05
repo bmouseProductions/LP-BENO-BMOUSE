@@ -41,13 +41,12 @@ const Audiovisual = () => {
               image: "/camera-ursa.png",
             },
           ].map((item, index) => (
-            <div key={index} className="w-full md:w-1/2 lg:w-1/4 p-4 mt-5">
-              <div className="mx-auto border-4 border-[#33F1DD] rounded-3xl overflow-hidden">
-                <img
-                  src={item.image}
-                  className="w-full h-auto"
-                  alt={`Camera ${index + 1}`}
-                />
+            <div
+              key={index}
+              className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center border-4 lg:mx-auto border-[#33F1DD] rounded-3xl p-4 mt-5"
+            >
+              <div className="mx-auto">
+                <img src={item.image} className="z-20" />
               </div>
             </div>
           ))}
