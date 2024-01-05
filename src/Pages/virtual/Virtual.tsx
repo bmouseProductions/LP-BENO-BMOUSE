@@ -1,6 +1,6 @@
 const Virtual = () => {
   return (
-    <div className=" py-16 bg-transparent w-full relative bg-banner lg:flex   lg:bg-cover lg:h-screen">
+    <div className=" py-16 bg-transparent w-full relative ">
       {/*       <div className="text-center">
         <h1 className="text-[#33F1DD] text-4xl lg:text-8xl">
           Realidade

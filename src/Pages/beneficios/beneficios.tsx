@@ -3,7 +3,7 @@ import beneficio from "../../assets/beneficios.png";
 
 const Beneficios = () => {
   return (
-    <div className=" bg-banner lg:flex   lg:bg-cover lg:h-screen">
+    <div className="">
       <div className="flex flex-col items-center justify-center mx-auto mt-24">
         <img src="/Vector.png" className="mx-auto lg:-mb-20" />
         <div className="text-center">

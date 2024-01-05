@@ -3,7 +3,7 @@ import roberta from "../../assets/tom&roberta.png";
 
 const Pensamento = () => {
   return (
-    <div className=" text-center bg-banner lg:pt-10  lg:bg-cover ">
+    <div className=" mt-36 mx-auto text-center">
       <div className="font-extralight">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light lg:-mb-14 lg:pr-80 xl:text-7xl">
           Pensamos
