@@ -5,7 +5,7 @@ const Beneficios = () => {
   return (
     <div className="">
       <div className="mx-auto flex flex-col items-center justify-center ">
-        <img src="/Vector.png" className="mx-auto -mb-20" />
+        <img src="/Vector.png" className="mx-auto lg:-mb-20" />
         <div className="text-center">
           <img src={beneficio} className="mx-auto" />
           {/*           <h1 className="text-4xl lg:text-6xl">
@@ -17,7 +17,7 @@ const Beneficios = () => {
               Realidade virtual{" "}
             </h1>
           </div> */}
-          <div className="mx-auto text-center w-1/2 lg:w-1/2 -mt-10">
+          <div className="mx-auto text-center w-1/2 lg:w-1/2 lg:-mt-10">
             <BannerButton text="Para sua empresa" />
           </div>
         </div>

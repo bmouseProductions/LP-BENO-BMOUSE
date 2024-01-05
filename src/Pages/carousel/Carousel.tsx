@@ -47,7 +47,7 @@ const Carousel = () => {
  */
   return (
     <div className="">
-      <img src={Realidade} alt="" className="mx-auto" />
+      <img src={Realidade} alt="" className="mx-auto w-full py-16" />
       {/* <div className="  border-2 border-solid rounded-full border-[#33F1DD] text-center p-2 items-center align-bottom justify-center max-w-xs  mx-auto bg-red-400 w-full relative">
         <h1 className="text-base font-light ">
           <span>Empresas</span> que já estão usando VR:

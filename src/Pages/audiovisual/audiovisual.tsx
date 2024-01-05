@@ -29,7 +29,7 @@ const Audiovisual = () => {
           </p>
         </div>
 
-        <div className="container justify-center flex">
+        <div className="container justify-center flex flex-wrap">
           {[
             {
               image: "/camera-ursa.png",
@@ -41,12 +41,13 @@ const Audiovisual = () => {
               image: "/camera-ursa.png",
             },
           ].map((item, index) => (
-            <div
-              key={index}
-              className=" items-center border-4 lg:w-1/4 lg:mx-auto border-[#33F1DD] rounded-3xl  p-4 mt-5"
-            >
-              <div className="  mx-auto">
-                <img src={item.image} className="z-20 " />
+            <div key={index} className="w-full md:w-1/2 lg:w-1/4 p-4 mt-5">
+              <div className="mx-auto border-4 border-[#33F1DD] rounded-3xl overflow-hidden">
+                <img
+                  src={item.image}
+                  className="w-full h-auto"
+                  alt={`Camera ${index + 1}`}
+                />
               </div>
             </div>
           ))}

@@ -5,9 +5,13 @@ import cliente from "../../assets/cliente.png";
 const Testimonial = () => {
   return (
     <div className="">
-      <div className="">
-        <div className="pr-10">
-          <img src={cliente} alt="Vector" className="mx-auto" />
+      <div className=" justify-center items-center place-content-center text-center mx-auto">
+        <div className="lg:pr-10 flex pr-20">
+          <img
+            src={cliente}
+            alt="Vector"
+            className=" justify-center items-center place-content-center text-center mx-auto"
+          />
         </div>
         {/*         <div className="text-center">
           <div className="items-center ml-8">
