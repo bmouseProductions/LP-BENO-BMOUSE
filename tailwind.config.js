@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url('../src/assets/Fundo-Desk-.png')",
+        banner: "url('/grid.png')",
       },
     },
   },
