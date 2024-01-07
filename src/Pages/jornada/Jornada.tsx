@@ -3,8 +3,8 @@ import jornada from "../../assets/jornada.png";
 const Jornada = () => {
   return (
     <div className="py-10 ">
-      <div className="border-2 border-[#959595] mx-auto w-5/6 sm:w-1/2 md:w-1/3 lg:w-1/6 rounded-full p-4">
-        <p className="text-center uppercase text-2xl text-[#959595]">
+      <div className="border-2 border-[#fff] mx-auto w-5/6 sm:w-1/2 md:w-1/3 lg:w-1/6 rounded-full p-4">
+        <p className="text-center uppercase text-2xl text-[#FFF]">
           O futuro lhe aguarda
         </p>
       </div>

@@ -3,12 +3,12 @@ import beneficio from "../../assets/beneficios.png";
 
 const Beneficios = () => {
   return (
-    <div className="">
+    <div className="relative">
       <div className="flex flex-col items-center justify-center mx-auto mt-24">
-        <img src="/Vector.png" className="mx-auto lg:-mb-20" />
+        <img src="/Camada_1.png" className="mx-auto lg:-mb-20 p-0" />
         <div className="text-center">
-          <img src={beneficio} className="mx-auto" />
-          <div className="mx-auto text-center lg:w-1/2 lg:-mt-10">
+          <img src={beneficio} className="mx-auto -mt-32 w-[90%] lg:w-full" />
+          <div className="mx-auto text-center lg:w-1/2 w-1/2 lg:-mt-10">
             <BannerButton text="Para sua empresa" />
           </div>
         </div>

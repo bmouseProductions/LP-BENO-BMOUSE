@@ -4,17 +4,20 @@ const Banner = () => {
     <div className=" ">
       <div className="mx-auto flex flex-col items-center justify-center lg:mt-32 mt-36">
         <div className="lg:flex lg:items-center">
-          <div className="relative w-[109px] h-[58px] lg:w-[240px] lg:mr-3 mx-auto  bg-[100%_100%]">
-            <img className="lg:w-52 lg:-top-6" alt="Vector" src="/Vector.png" />
+          <div className="">
+            <img
+              className="absolute -top-20 lg:-top-5 right-0 lg:left-[30rem]"
+              alt="Vector"
+              src="/Camada_1.png"
+            />
           </div>
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-left lg:pl-56">
             <h1 className="text-8xl lg:text-7xl">
               VISION <br />{" "}
             </h1>
             <div className="flex">
-              <h1 className="flex text-6xl lg:text-7xl mx-auto">
-                {" "}
-                VR <img src="/logo.png" className="w-[90%] mx-auto lg:mx-0" />
+              <h1 className="flex text-6xl lg:text-7xl">
+                VR <img src="/logo.png" className=" " />
               </h1>
             </div>
           </div>
@@ -32,7 +35,7 @@ const Banner = () => {
             </span>
           </p>
         </div>
-        <div className="lg:w-[50%] mx-auto">
+        <div className="lg:w-[20%] mx-auto">
           <ContatoButton />
         </div>
       </div>

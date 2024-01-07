@@ -24,7 +24,9 @@ const Testimonials: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <div className="text-lg font-medium">Sarah Steiner</div>
+                  <div className="text-lg font-medium text-white">
+                    Sarah Steiner
+                  </div>
                   <div className="text-gray-600 dark:text-gray-400">
                     VP Sales at Google
                   </div>
@@ -50,7 +52,9 @@ const Testimonials: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <div className="text-lg font-medium">Dylan Ambrose</div>
+                  <div className="text-lg font-medium text-white">
+                    Dylan Ambrose
+                  </div>
                   <div className="text-gray-600 dark:text-gray-400">
                     Lead marketer at Netflix{" "}
                   </div>
@@ -76,7 +80,9 @@ const Testimonials: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <div className="text-lg font-medium">Gabrielle Winn</div>
+                  <div className="text-lg font-medium text-white">
+                    Gabrielle Winn
+                  </div>
                   <div className="text-gray-600 dark:text-gray-400">
                     Co-founder of Acme Inc
                   </div>
