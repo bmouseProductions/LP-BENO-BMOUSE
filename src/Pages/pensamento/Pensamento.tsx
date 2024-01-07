@@ -4,7 +4,7 @@ import roberta from "../../assets/tom&roberta.png";
 const Pensamento = () => {
   return (
     <div className=" mt-36 mx-auto text-center">
-      <div className="font-extralight">
+      <div className="font-extralight" data-aos="fade-up">
         <img src={alem} className="mx-auto  " />
       </div>
 
@@ -14,7 +14,7 @@ const Pensamento = () => {
         novos patamares.{" "}
       </p>
 
-      <div className="mx-auto">
+      <div className="mx-auto" data-aos="fade-down">
         <img src={roberta} className="mx-auto lg:-mt-96 lg:-mb-32 p-0" />
         <img
           src="/down.png"

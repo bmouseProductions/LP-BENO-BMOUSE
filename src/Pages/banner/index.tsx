@@ -9,9 +9,13 @@ const Banner = () => {
               className="absolute -top-20 lg:-top-5 right-0 lg:left-[30rem]"
               alt="Vector"
               src="/Camada_1.png"
+              data-aos="fade-up"
             />
           </div>
-          <div className="text-center lg:text-left lg:pl-56">
+          <div
+            className="text-center lg:text-left lg:pl-56"
+            data-aos="fade-left"
+          >
             <h1 className="text-8xl lg:text-7xl">
               VISION <br />{" "}
             </h1>
@@ -22,7 +26,10 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="relative -top-16 lg:-left-10 lg:-top-20">
+        <div
+          className="relative -top-16 lg:-left-10 lg:-top-20"
+          data-aos="fade-right"
+        >
           <img src="/glasses.png" className="w-full max-w-2xl mx-auto" />
           <p className="container px-6 text-center md:max-w-4xl font-extralight text-xl">
             Imagine a possibilidade de levar seus clientes para dentro da sua

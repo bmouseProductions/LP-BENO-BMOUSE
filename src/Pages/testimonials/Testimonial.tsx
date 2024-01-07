@@ -5,7 +5,10 @@ import cliente from "../../assets/cliente.png";
 const Testimonial = () => {
   return (
     <div className="">
-      <div className=" justify-center items-center place-content-center text-center mx-auto">
+      <div
+        className=" justify-center items-center place-content-center text-center mx-auto"
+        data-aos="fade-up"
+      >
         <div className="lg:pr-10 flex pr-20">
           <img
             src={cliente}

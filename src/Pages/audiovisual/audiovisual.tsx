@@ -4,7 +4,10 @@ import audio from "../../assets/audiovisu.png";
 const Audiovisual = () => {
   return (
     <div className="">
-      <div className="mx-auto flex flex-col items-center justify-center ">
+      <div
+        className="mx-auto flex flex-col items-center justify-center "
+        data-aos="fade-left"
+      >
         <div className="">
           <img src={audio} />
         </div>
@@ -19,7 +22,7 @@ const Audiovisual = () => {
             <BannerButton text="Conheça o que temos disponível" />
           </div>
         </div> */}
-        <div className="relative mt-10 lg:max-w-4xl pb-20">
+        <div className="relative mt-10 lg:max-w-4xl pb-20" data-aos="fade-up">
           <p className="container px-6 lg:text-xl text-center font-extralight">
             Grandes ideias para divulgar a sua marca se tornam ainda maiores com
             a liberdade técnica que temos para executá-las.{" "}
@@ -29,7 +32,10 @@ const Audiovisual = () => {
           </p>
         </div>
 
-        <div className="container justify-center flex flex-wrap">
+        <div
+          className="container justify-center flex flex-wrap"
+          data-aos="fade-down"
+        >
           {[
             {
               image: "/camera-ursa.png",

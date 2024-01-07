@@ -4,7 +4,10 @@ import beneficio from "../../assets/beneficios.png";
 const Beneficios = () => {
   return (
     <div className="relative">
-      <div className="flex flex-col items-center justify-center mx-auto mt-24">
+      <div
+        className="flex flex-col items-center justify-center mx-auto mt-24"
+        data-aos="fade-up"
+      >
         <img src="/Camada_1.png" className="mx-auto lg:-mb-20 p-0" />
         <div className="text-center">
           <img src={beneficio} className="mx-auto -mt-32 w-[90%] lg:w-full" />
@@ -12,7 +15,7 @@ const Beneficios = () => {
             <BannerButton text="Para sua empresa" />
           </div>
         </div>
-        <div className="mt-5">
+        <div className="mt-5" data-aos="fade-down">
           <p className="container px-6 text-[#999] text-center lg:max-w-3xl mb-5 font-extralight">
             A Realidade Virtual oferece uma abordagem inovadora para destacar
             sua empresa no mercado, proporcionando aos clientes experiências

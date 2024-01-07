@@ -1,7 +1,7 @@
 const Virtual = () => {
   return (
     <div className=" py-16 bg-transparent w-full relative ">
-      <div className="text-center  mx-auto">
+      <div className="text-center  mx-auto" data-aos="fade-up">
         <h2 className="text-[rgba(255, 255, 255, 0.70)] text-xl">
           Assista aqui alguns trabalhos
         </h2>
