@@ -25,7 +25,7 @@ const Footer = () => {
             {/* Twitter Icon */}
             <FontAwesomeIcon
               icon={faTwitter}
-              className="text-white rounded-full p-2 border-1 border-[#33F1DD] 
+              className=" rounded-full p-2 border-1 border-[#33F1DD] 
                          hover:shadow-md transition duration-300"
               style={{
                 borderRadius: 50,
@@ -36,7 +36,7 @@ const Footer = () => {
             {/* Instagram Icon */}
             <FontAwesomeIcon
               icon={faInstagram}
-              className="text-white rounded-full p-2 border-1 border-[#33F1DD] 
+              className=" rounded-full p-2 border-1 border-[#33F1DD] 
                          hover:shadow-md transition duration-300"
               style={{
                 borderRadius: 50,
@@ -47,7 +47,7 @@ const Footer = () => {
             {/* Facebook Icon */}
             <FontAwesomeIcon
               icon={faFacebook}
-              className="text-white rounded-full p-2 border-1 border-[#33F1DD] 
+              className=" rounded-full p-2 border-1 border-[#33F1DD] 
                          hover:shadow-md transition duration-300"
               style={{
                 borderRadius: 50,
